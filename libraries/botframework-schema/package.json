@@ -1,8 +1,8 @@
 {
-  "name": "botframework-schema",
+  "name": "@chrimc62/botframework-schema",
   "author": "Microsoft Corp.",
   "description": "Activity schema for the Microsoft Bot Framework.",
-  "version": "4.1.6",
+  "version": "4.1.10",
   "license": "MIT",
   "keywords": [
     "botconnector",
@@ -12,7 +12,7 @@
   "homepage": "http://github.com/Microsoft/botbuilder-js",
   "bugs": {
     "url": "http://github.com/Microsoft/botbuilder-js/issues"
-  },  
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Microsoft/botbuilder-js.git"
