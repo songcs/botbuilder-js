@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Attachment, InputHints, TurnContext } from 'botbuilder-core';
+import { Attachment, InputHints, TurnContext } from '@chrimc62/botbuilder-core';
 import { Prompt, PromptOptions, PromptRecognizerResult, PromptValidator } from './prompt';
 
 /**

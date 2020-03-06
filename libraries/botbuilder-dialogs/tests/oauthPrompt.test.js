@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { ActionTypes, ActivityTypes, CardFactory, Channels, ConversationState, InputHints, MemoryStorage, TestAdapter, TurnContext } = require('botbuilder-core');
+const { ActionTypes, ActivityTypes, CardFactory, Channels, ConversationState, InputHints, MemoryStorage, TestAdapter, TurnContext } = require('@chrimc62/botbuilder-core');
 const { OAuthPrompt, DialogSet, DialogTurnStatus, ListStyle } = require('../');
 const { AuthConstants } = require('../lib/prompts/skillsHelpers');
 

@@ -9,7 +9,7 @@
 import { LUISRuntimeModels as LuisModels } from '@azure/cognitiveservices-luis-runtime';
 import { LuisRecognizerInternal } from './luisRecognizerOptions'
 import { LuisApplication , LuisRecognizerOptionsV3} from './luisRecognizer'
-import { NullTelemetryClient, TurnContext , RecognizerResult} from 'botbuilder-core';
+import { NullTelemetryClient, TurnContext , RecognizerResult} from '@chrimc62/botbuilder-core';
 const fetch = require('node-fetch');
 const LUIS_TRACE_TYPE = 'https://www.luis.ai/schemas/trace';
 const LUIS_TRACE_NAME = 'LuisRecognizer';

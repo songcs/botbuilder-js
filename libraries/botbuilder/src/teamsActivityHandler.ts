@@ -27,7 +27,7 @@ import {
     TeamsChannelAccount,
     TeamInfo,
     TurnContext
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import { TeamsInfo } from './teamsInfo';
 
 export class TeamsActivityHandler extends ActivityHandler {

@@ -27,4 +27,4 @@ export { StreamingHttpClient, TokenResolver } from './streaming';
 export * from './teamsActivityHandler';
 export * from './teamsActivityHelpers';
 export * from './teamsInfo';
-export * from 'botbuilder-core';
+export * from '@chrimc62/botbuilder-core';

@@ -1,5 +1,5 @@
 const { LGParser } = require('../');
-const { SimpleObjectMemory, ExpressionEngine, ExpressionEvaluator, ExpressionFunctions, ReturnType} = require('adaptive-expressions');
+const { SimpleObjectMemory, ExpressionEngine, ExpressionEvaluator, ExpressionFunctions, ReturnType} = require('@chrimc62/adaptive-expressions');
 const assert = require('assert');
 const fs = require('fs');
 

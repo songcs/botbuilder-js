@@ -7,7 +7,7 @@
  */
 
 
-import { Activity, TestAdapter, Middleware, ConversationState, MemoryStorage, AutoSaveStateMiddleware, TurnContext } from 'botbuilder-core';
+import { Activity, TestAdapter, Middleware, ConversationState, MemoryStorage, AutoSaveStateMiddleware, TurnContext } from '@chrimc62/botbuilder-core';
 import { Dialog,  DialogSet, DialogTurnStatus, DialogTurnResult } from 'botbuilder-dialogs';
 
 /**

@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { ConversationReference } from 'botframework-schema';
+import { ConversationReference } from '@chrimc62/botframework-schema';
 
 export interface SkillConversationReference {
     conversationReference: ConversationReference;

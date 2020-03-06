@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import * as appInsights from 'applicationinsights';
-import { Activity, BotTelemetryClient, TelemetryDependency, TelemetryEvent, TelemetryException, TelemetryTrace } from 'botbuilder-core';
+import { Activity, BotTelemetryClient, TelemetryDependency, TelemetryEvent, TelemetryException, TelemetryTrace } from '@chrimc62/botbuilder-core';
 import * as cls from 'cls-hooked';
 import * as crypto from 'crypto';
 const ns: any = cls.createNamespace('my.request');

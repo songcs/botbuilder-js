@@ -1,4 +1,4 @@
-const { ActivityTypes } = require('botbuilder-core');
+const { ActivityTypes } = require('@chrimc62/botbuilder-core');
 
 // Mock of botframework-streaming/src/ContentStream
 class MockContentStream {

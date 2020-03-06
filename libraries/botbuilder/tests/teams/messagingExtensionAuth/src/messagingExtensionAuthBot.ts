@@ -17,7 +17,7 @@ import {
 
 import {
     IUserTokenProvider,
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 
 /*
 * This Bot requires an Azure Bot Service OAuth connection name in appsettings.json

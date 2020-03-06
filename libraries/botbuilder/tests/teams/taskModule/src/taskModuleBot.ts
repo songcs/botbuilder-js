@@ -14,7 +14,7 @@ import {
     TaskModuleResponse,
     TaskModuleTaskInfo,
     TurnContext,
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 
 export class TaskModuleBot  extends TeamsActivityHandler {
     constructor() {

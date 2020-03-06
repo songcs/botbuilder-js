@@ -13,7 +13,7 @@ import {
     DeliveryModes,
     SkillConversationIdFactoryOptions,
     TurnContext
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import {
     Dialog,
     DialogInstance,

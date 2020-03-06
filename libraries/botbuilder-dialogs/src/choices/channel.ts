@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Channels, TurnContext } from 'botbuilder-core';
+import { Channels, TurnContext } from '@chrimc62/botbuilder-core';
 
 /**
  * @private

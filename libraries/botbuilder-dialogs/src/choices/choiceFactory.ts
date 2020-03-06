@@ -14,7 +14,7 @@ import {
     InputHints,
     MessageFactory,
     TurnContext
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import * as channel from './channel';
 import { Choice } from './findChoices';
 

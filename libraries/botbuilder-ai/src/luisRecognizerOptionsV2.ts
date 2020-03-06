@@ -10,7 +10,7 @@ import { LUISRuntimeClient as LuisClient, LUISRuntimeModels as LuisModels } from
 import * as msRest from '@azure/ms-rest-js';
 import { LuisRecognizerInternal } from './luisRecognizerOptions'
 import { LuisApplication, LuisRecognizerOptionsV2} from './luisRecognizer'
-import { NullTelemetryClient, TurnContext, RecognizerResult } from 'botbuilder-core';
+import { NullTelemetryClient, TurnContext, RecognizerResult } from '@chrimc62/botbuilder-core';
 import * as os from 'os';
 const pjson = require('../package.json');
 const LUIS_TRACE_TYPE = 'https://www.luis.ai/schemas/trace';

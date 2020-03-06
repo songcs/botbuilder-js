@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { ActionTypes, AnimationCard, Attachment, AudioCard, CardAction, CardImage, HeroCard, MediaUrl, OAuthCard, O365ConnectorCard, ReceiptCard, SigninCard, ThumbnailCard, VideoCard } from 'botframework-schema';
+import { ActionTypes, AnimationCard, Attachment, AudioCard, CardAction, CardImage, HeroCard, MediaUrl, OAuthCard, O365ConnectorCard, ReceiptCard, SigninCard, ThumbnailCard, VideoCard } from '@chrimc62/botframework-schema';
 
 /**
  * Provides methods for formatting the various card types a bot can return.

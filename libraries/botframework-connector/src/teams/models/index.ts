@@ -9,7 +9,7 @@
 // and the botframework-connector libraries.
 
 import { HttpResponse, ServiceClientOptions, RequestOptionsBase } from '@azure/ms-rest-js';
-import { ConversationList, TeamDetails } from 'botframework-schema';
+import { ConversationList, TeamDetails } from '@chrimc62/botframework-schema';
 
 /**
  * @interface

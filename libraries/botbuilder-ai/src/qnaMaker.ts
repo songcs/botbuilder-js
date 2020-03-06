@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Activity, TurnContext, BotTelemetryClient, NullTelemetryClient } from 'botbuilder-core';
+import { Activity, TurnContext, BotTelemetryClient, NullTelemetryClient } from '@chrimc62/botbuilder-core';
 
 import { constants } from 'http2';
 import { QnATelemetryConstants } from './qnaTelemetryConstants';

@@ -1,6 +1,6 @@
 const assert = require('assert');
 const nock = require('nock');
-const { TurnContext } = require('botbuilder-core');
+const { TurnContext } = require('@chrimc62/botbuilder-core');
 const { BotFrameworkAdapter, TeamsInfo } = require('../');
 
 beforeEach(function (done) {

@@ -1,4 +1,4 @@
-const { ConversationState, MemoryStorage, NullTelemetryClient, TestAdapter } = require('botbuilder-core');
+const { ConversationState, MemoryStorage, NullTelemetryClient, TestAdapter } = require('@chrimc62/botbuilder-core');
 const { ComponentDialog, DialogSet, WaterfallDialog } = require('../../botbuilder-dialogs');
 const assert = require('assert');
 

@@ -22,7 +22,7 @@
   "typings": "./lib/index.d.ts",
   "dependencies": {
     "applicationinsights": "1.2.0",
-    "botbuilder-core": "4.1.6",
+    "@chrimc62/botbuilder-core": "4.1.6",
     "cls-hooked": "^4.2.2"
   },
   "devDependencies": {

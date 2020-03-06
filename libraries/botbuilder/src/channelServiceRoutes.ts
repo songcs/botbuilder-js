@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { Activity, ConversationParameters, Transcript, AttachmentData } from 'botbuilder-core';
+import { Activity, ConversationParameters, Transcript, AttachmentData } from '@chrimc62/botbuilder-core';
 
 import { StatusCodes } from './botFrameworkAdapter';
 import { ChannelServiceHandler } from './channelServiceHandler';

@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Activity, ActivityTypes, ConversationReference } from 'botframework-schema';
+import { Activity, ActivityTypes, ConversationReference } from '@chrimc62/botframework-schema';
 import { Middleware } from './middlewareSet';
 import { TurnContext } from './turnContext';
 

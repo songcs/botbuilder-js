@@ -8,7 +8,7 @@ import {
 import {
     Middleware,
     TeamsChannelData,
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 
 //
 // Teams specific middleware for filtering messages by Tenant Id.

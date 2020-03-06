@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-export * from 'botframework-schema';
+export * from '@chrimc62/botframework-schema';
 export * from './activityHandler';
 export * from './activityHandlerBase';
 export * from './autoSaveStateMiddleware';

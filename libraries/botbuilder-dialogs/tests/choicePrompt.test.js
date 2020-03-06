@@ -1,4 +1,4 @@
-const { ActivityTypes, CardFactory, ConversationState, MemoryStorage, TestAdapter } = require('botbuilder-core');
+const { ActivityTypes, CardFactory, ConversationState, MemoryStorage, TestAdapter } = require('@chrimc62/botbuilder-core');
 const { ChoicePrompt, ChoiceFactory, DialogSet, ListStyle, DialogTurnStatus } = require('../');
 const { PromptCultureModels } = require('../');
 const assert = require('assert');

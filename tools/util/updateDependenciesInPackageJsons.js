@@ -9,12 +9,12 @@ var rootPath = myArgs[0];
 var newVersion = myArgs[1];
 var previewVersion = myArgs[2] || process.env.PreviewPackageVersion;
 // This is a hack to deal with the inconsistencies between CI and daily builds right now
-if(previewVersion === 'adaptive-expressions') {
+if(previewVersion === '@chrimc62/adaptive-expressions') {
     previewVersion = undefined;
 }
 var previewPackages = {
-    'botbuilder-lg': true,
-    'adaptive-expressions': true
+    '@chrimc62/botbuilder-lg': true,
+    '@chrimc62/adaptive-expressions': true
 }
 var dependencies = myArgs.slice(previewVersion ? 3 : 2);
 console.log('newVersion =', newVersion);

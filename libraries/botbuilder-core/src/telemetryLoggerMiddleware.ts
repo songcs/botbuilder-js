@@ -4,7 +4,7 @@
 import { BotTelemetryClient, NullTelemetryClient } from './botTelemetryClient';
 import { Middleware } from './middlewareSet';
 import { TurnContext } from './turnContext';
-import { Activity, ActivityTypes, ConversationReference, ResourceResponse } from 'botframework-schema';
+import { Activity, ActivityTypes, ConversationReference, ResourceResponse } from '@chrimc62/botframework-schema';
 import { TelemetryConstants } from './telemetryConstants';
 
 /**

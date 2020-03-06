@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import * as fs from 'fs-extra';
-import { Activity, PagedResult, TranscriptInfo, TranscriptStore } from 'botbuilder-core';
+import { Activity, PagedResult, TranscriptInfo, TranscriptStore } from '@chrimc62/botbuilder-core';
 import * as filenamify from 'filenamify';
 import * as path from 'path';
 

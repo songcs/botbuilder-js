@@ -6,8 +6,8 @@
  * Licensed under the MIT License.
  */
 
-import { Activity, SuggestedActions, Attachment, ActivityTypes, ActionTypes, CardAction } from 'botframework-schema';
-import { MessageFactory, CardFactory } from 'botbuilder-core';
+import { Activity, SuggestedActions, Attachment, ActivityTypes, ActionTypes, CardAction } from '@chrimc62/botframework-schema';
+import { MessageFactory, CardFactory } from '@chrimc62/botbuilder-core';
 import { Diagnostic, DiagnosticSeverity } from './diagnostic';
 import { ActivityChecker } from './activityChecker';
 import { Evaluator } from './evaluator';

@@ -7,7 +7,7 @@
  */
 import { MemoryScope } from "./memoryScope";
 import { DialogContext } from "../../dialogContext";
-import { BotState } from 'botbuilder-core';
+import { BotState } from '@chrimc62/botbuilder-core';
 
 /**
  * Base class for memory scopes based on BotState.

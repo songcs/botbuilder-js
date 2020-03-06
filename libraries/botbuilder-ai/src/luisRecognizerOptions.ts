@@ -7,7 +7,7 @@
  */
 
 import {LuisApplication, LuisRecognizerOptions}  from './luisRecognizer'
-import { RecognizerResult, TurnContext } from 'botbuilder-core';
+import { RecognizerResult, TurnContext } from '@chrimc62/botbuilder-core';
 
 export abstract class LuisRecognizerInternal {
  

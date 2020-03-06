@@ -16,7 +16,7 @@ import {
     TurnContext,
     PagedMembersResult,
     TeamsPagedMembersResult
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import { ConnectorClient, TeamsConnectorClient, TeamsConnectorModels} from 'botframework-connector';
 
 import { BotFrameworkAdapter } from './botFrameworkAdapter';

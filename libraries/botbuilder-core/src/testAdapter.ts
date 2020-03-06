@@ -7,7 +7,7 @@
  */
 // tslint:disable-next-line:no-require-imports
 import assert from 'assert';
-import { Activity, ActivityTypes, ConversationReference, ResourceResponse, TokenResponse } from 'botframework-schema';
+import { Activity, ActivityTypes, ConversationReference, ResourceResponse, TokenResponse } from '@chrimc62/botframework-schema';
 import { BotAdapter } from './botAdapter';
 import { TurnContext } from './turnContext';
 import { IUserTokenProvider } from './userTokenProvider';

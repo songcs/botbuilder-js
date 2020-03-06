@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Activity, BotFrameworkSkill, ConversationReference, InvokeResponse, SkillConversationIdFactoryBase, TurnContext, SkillConversationIdFactoryOptions } from 'botbuilder-core';
+import { Activity, BotFrameworkSkill, ConversationReference, InvokeResponse, SkillConversationIdFactoryBase, TurnContext, SkillConversationIdFactoryOptions } from '@chrimc62/botbuilder-core';
 import { ICredentialProvider, JwtTokenValidation, GovernmentConstants, AuthenticationConstants } from 'botframework-connector';
 import { BotFrameworkHttpClient } from '../botFrameworkHttpClient';
 

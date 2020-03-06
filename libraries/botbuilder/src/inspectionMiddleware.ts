@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import { MicrosoftAppCredentials, ConnectorClient } from 'botframework-connector';
-import { Activity, ActivityTypes, Middleware, TurnContext, BotState, ConversationReference, StatePropertyAccessor, UserState, ConversationState, Storage } from 'botbuilder-core';
+import { Activity, ActivityTypes, Middleware, TurnContext, BotState, ConversationReference, StatePropertyAccessor, UserState, ConversationState, Storage } from '@chrimc62/botbuilder-core';
 import { teamsGetTeamId } from './teamsActivityHelpers';
 
 /** @private */

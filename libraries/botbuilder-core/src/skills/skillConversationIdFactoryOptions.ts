@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { Activity } from 'botframework-schema';
+import { Activity } from '@chrimc62/botframework-schema';
 import { BotFrameworkSkill } from './botFrameworkSkill';
 
 export interface SkillConversationIdFactoryOptions {

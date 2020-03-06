@@ -7,7 +7,7 @@
  */
 
 import axios from 'axios';
-import { Activity, BotFrameworkClient, InvokeResponse } from 'botbuilder-core';
+import { Activity, BotFrameworkClient, InvokeResponse } from '@chrimc62/botbuilder-core';
 import {
     AuthenticationConstants,
     GovernmentConstants,

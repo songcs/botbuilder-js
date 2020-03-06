@@ -9,7 +9,7 @@
 import { AppCredentials } from './appCredentials';
 import { IUserTokenProvider } from './userTokenProvider';
 import { TurnContext } from './turnContext';
-import { TokenResponse } from 'botframework-schema';
+import { TokenResponse } from '@chrimc62/botframework-schema';
 
 export interface CredentialTokenProvider extends IUserTokenProvider {
     /**

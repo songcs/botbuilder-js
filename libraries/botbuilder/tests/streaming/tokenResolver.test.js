@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { BotCallbackHandlerKey, CardFactory, TurnContext } = require('botbuilder-core');
+const { BotCallbackHandlerKey, CardFactory, TurnContext } = require('@chrimc62/botbuilder-core');
 const { BotFrameworkAdapter, TokenResolver } = require('../../');
 
 class MockAdapter extends BotFrameworkAdapter {

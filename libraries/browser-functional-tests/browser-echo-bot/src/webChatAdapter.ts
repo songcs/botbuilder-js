@@ -4,7 +4,7 @@
  */
 
 import { ConnectionStatus } from 'botframework-directlinejs';
-import { BotAdapter, TurnContext } from 'botbuilder-core';
+import { BotAdapter, TurnContext } from '@chrimc62/botbuilder-core';
 import { BOT_PROFILE, USER_PROFILE } from './app';
 import Observable from 'core-js/features/observable';
 

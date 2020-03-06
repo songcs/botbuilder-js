@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { Activity } from 'botbuilder-core';
+import { Activity } from '@chrimc62/botbuilder-core';
 
 /**
  * A class with dialog arguments for a SkillDialog.

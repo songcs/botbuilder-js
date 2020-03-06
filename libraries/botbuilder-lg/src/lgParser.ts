@@ -24,7 +24,7 @@ import { Diagnostic, DiagnosticSeverity } from './diagnostic';
 import { Position } from './position';
 import { ParserRuleContext } from 'antlr4ts';
 import { Range } from './range';
-import { ExpressionEngine } from 'adaptive-expressions';
+import { ExpressionEngine } from '@chrimc62/adaptive-expressions';
 
 export declare type ImportResolverDelegate = (source: string, resourceId: string) => { content: string; id: string };
 

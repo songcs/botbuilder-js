@@ -6,7 +6,7 @@
 
 const nock = require('nock');
 const assert = require('assert');
-const { TestAdapter, MemoryStorage, MessageFactory, UserState, ConversationState } = require('botbuilder-core');
+const { TestAdapter, MemoryStorage, MessageFactory, UserState, ConversationState } = require('@chrimc62/botbuilder-core');
 const { InspectionMiddleware, InspectionState } = require('../');
 
 beforeEach(function(done){

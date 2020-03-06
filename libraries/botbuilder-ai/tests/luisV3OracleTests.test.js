@@ -1,5 +1,5 @@
 const { LuisRecognizer } = require('../');
-const { TestAdapter, TurnContext } = require('botbuilder-core');
+const { TestAdapter, TurnContext } = require('@chrimc62/botbuilder-core');
 const luisAppId = '38330cad-f768-4619-96f9-69ea333e594b';
 const fs = require('fs-extra');
 const nock = require('nock');

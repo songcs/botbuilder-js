@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import { LUISRuntimeClient as LuisClient, LUISRuntimeModels as LuisModels } from '@azure/cognitiveservices-luis-runtime';
-import { BotTelemetryClient, NullTelemetryClient, RecognizerResult, TurnContext } from 'botbuilder-core';
+import { BotTelemetryClient, NullTelemetryClient, RecognizerResult, TurnContext } from '@chrimc62/botbuilder-core';
 import * as Url from 'url-parse';
 import { LuisTelemetryConstants } from './luisTelemetryConstants';
 import { isLuisRecognizerOptionsV2, LuisRecognizerV2 } from './luisRecognizerOptionsV2';

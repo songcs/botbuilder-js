@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { MemoryInterface, SimpleObjectMemory } from 'adaptive-expressions';
+import { MemoryInterface, SimpleObjectMemory } from '@chrimc62/adaptive-expressions';
 
 /**
  * A customized memory designed for LG evaluation, in which

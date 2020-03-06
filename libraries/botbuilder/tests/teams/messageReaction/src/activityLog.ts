@@ -7,7 +7,7 @@ import {
 
 import{
     Activity
-} from 'botframework-schema'
+} from '@chrimc62/botframework-schema'
 
 
 export class ActivityLog  {

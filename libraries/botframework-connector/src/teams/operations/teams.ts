@@ -11,7 +11,7 @@ import * as Models from '../models';
 import * as Mappers from '../models/teamsMappers';
 import * as Parameters from '../models/parameters';
 import { TeamsConnectorClientContext } from '../';
-import { ConversationList, TeamDetails } from 'botframework-schema';
+import { ConversationList, TeamDetails } from '@chrimc62/botframework-schema';
 
 /** Class representing a Teams. */
 export class Teams {

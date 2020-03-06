@@ -7,7 +7,7 @@
  */
 
 import { TurnContext } from './turnContext';
-import { TokenResponse } from 'botframework-schema';
+import { TokenResponse } from '@chrimc62/botframework-schema';
 
 /**
  * Interface for User Token OAuth APIs for BotAdapters

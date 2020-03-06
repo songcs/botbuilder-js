@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { ExpressionEngine } from 'adaptive-expressions';
+import { ExpressionEngine } from '@chrimc62/adaptive-expressions';
 import { Analyzer } from './analyzer';
 import { Diagnostic } from './diagnostic';
 import { Expander } from './expander';

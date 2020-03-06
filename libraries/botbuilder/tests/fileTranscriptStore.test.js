@@ -5,7 +5,7 @@ const path = require('path');
 const os = require('os');
 const fs = require('fs-extra');
 const uuid = require('uuid');
-const { ActivityTypes } = require('botbuilder-core');
+const { ActivityTypes } = require('@chrimc62/botbuilder-core');
 
 const workingFolder = path.join(os.tmpdir(), 'botbuilder-transcript-tests');
 

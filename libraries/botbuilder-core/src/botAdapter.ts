@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Activity, ConversationReference, ResourceResponse } from 'botframework-schema';
+import { Activity, ConversationReference, ResourceResponse } from '@chrimc62/botframework-schema';
 import { makeRevocable } from './internal';
 import { Middleware, MiddlewareHandler, MiddlewareSet } from './middlewareSet';
 import { TurnContext } from './turnContext';

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const { ActivityTypes, TurnContext } = require('botbuilder-core');
+const { ActivityTypes, TurnContext } = require('@chrimc62/botbuilder-core');
 const connector = require('botframework-connector');
 const { AuthenticationConstants, CertificateAppCredentials, ConnectorClient, GovernmentConstants, MicrosoftAppCredentials } = require('botframework-connector');
 const { BotFrameworkAdapter } = require('../');

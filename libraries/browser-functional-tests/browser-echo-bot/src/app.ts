@@ -9,7 +9,7 @@ import {
     ActivityTypes,
     ConversationState,
     MemoryStorage
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import './css/app.css';
 import { WebChatAdapter } from './webChatAdapter';
 import { renderWebChat } from 'botframework-webchat';

@@ -1,4 +1,4 @@
-const { ConversationState, UserState, MemoryStorage, TurnContext, TestAdapter } = require('botbuilder-core');
+const { ConversationState, UserState, MemoryStorage, TurnContext, TestAdapter } = require('@chrimc62/botbuilder-core');
 const { ClassMemoryScope, ConversationMemoryScope, DialogMemoryScope, 
     SettingsMemoryScope, ThisMemoryScope, TurnMemoryScope, UserMemoryScope,
     Dialog, DialogSet, DialogContext, DialogContainer } =  require('../');

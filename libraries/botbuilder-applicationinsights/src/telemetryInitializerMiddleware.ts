@@ -1,9 +1,9 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License
 
-import { TelemetryLoggerMiddleware } from 'botbuilder-core';
-import { Middleware } from 'botbuilder-core';
-import { TurnContext } from 'botbuilder-core';
+import { TelemetryLoggerMiddleware } from '@chrimc62/botbuilder-core';
+import { Middleware } from '@chrimc62/botbuilder-core';
+import { TurnContext } from '@chrimc62/botbuilder-core';
 import { CorrelationContext } from 'applicationinsights/out/AutoCollection/CorrelationContextManager';
 import * as appInsights from 'applicationinsights';
 

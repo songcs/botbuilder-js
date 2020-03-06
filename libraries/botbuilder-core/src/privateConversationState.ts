@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Activity } from 'botframework-schema';
+import { Activity } from '@chrimc62/botframework-schema';
 import { BotState } from './botState';
 import { Storage } from './storage';
 import { TurnContext } from './turnContext';

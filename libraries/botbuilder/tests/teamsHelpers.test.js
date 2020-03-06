@@ -4,7 +4,7 @@
  */
 
 const assert = require('assert');
-const { TurnContext } = require('botbuilder-core');
+const { TurnContext } = require('@chrimc62/botbuilder-core');
 const sinon = require('sinon');
 
 const {

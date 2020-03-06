@@ -5,8 +5,8 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { ActivityTypes } from 'botbuilder-core';
-import { TurnContext } from 'botbuilder-core';
+import { ActivityTypes } from '@chrimc62/botbuilder-core';
+import { TurnContext } from '@chrimc62/botbuilder-core';
 import { DialogInstance } from './dialog';
 import { Dialog, DialogReason, DialogTurnResult } from './dialog';
 import { DialogContext } from './dialogContext';

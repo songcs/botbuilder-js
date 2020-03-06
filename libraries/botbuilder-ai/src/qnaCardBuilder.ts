@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { Activity, MessageFactory, CardAction, CardFactory } from 'botbuilder-core';
+import { Activity, MessageFactory, CardAction, CardFactory } from '@chrimc62/botbuilder-core';
 import { QnAMakerResult } from './';
 
 /**

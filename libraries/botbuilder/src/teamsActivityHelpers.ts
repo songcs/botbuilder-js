@@ -12,7 +12,7 @@ import {
     NotificationInfo,
     TeamInfo,
     TeamsChannelData
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 
 /**
  * Activity helper methods for Teams.

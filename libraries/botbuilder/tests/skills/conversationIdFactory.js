@@ -1,4 +1,4 @@
-const { SkillConversationIdFactoryBase, } = require('botbuilder-core');
+const { SkillConversationIdFactoryBase, } = require('@chrimc62/botbuilder-core');
 
 class ConversationIdFactory extends SkillConversationIdFactoryBase {
     constructor() {

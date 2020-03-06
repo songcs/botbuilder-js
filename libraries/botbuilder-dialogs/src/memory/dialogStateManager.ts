@@ -8,7 +8,7 @@
 import { PathResolver, DollarPathResolver, HashPathResolver, AtAtPathResolver, AtPathResolver, PercentPathResolver } from './pathResolvers';
 import { MemoryScope, ScopePath, SettingsMemoryScope, DialogMemoryScope, ClassMemoryScope, ThisMemoryScope } from './scopes';
 import { DialogContext } from '../dialogContext';
-import { ConversationState, UserState } from 'botbuilder-core';
+import { ConversationState, UserState } from '@chrimc62/botbuilder-core';
 import { ConversationMemoryScope } from './scopes/conversationMemoryScope';
 import { TurnMemoryScope } from './scopes/turnMemoryScope';
 import { UserMemoryScope } from './scopes/userMemoryScope';

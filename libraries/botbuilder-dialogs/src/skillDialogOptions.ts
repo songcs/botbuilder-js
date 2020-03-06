@@ -11,7 +11,7 @@ import {
     BotFrameworkSkill,
     ConversationState,
     SkillConversationIdFactoryBase
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 
 export interface SkillDialogOptions {
     /**

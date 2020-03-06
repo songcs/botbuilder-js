@@ -2,7 +2,7 @@
 // Licensed under the MIT License
 
 const assert = require('assert');
-const { TestAdapter, ActivityTypes, TelemetryLoggerMiddleware } = require('botbuilder-core');
+const { TestAdapter, ActivityTypes, TelemetryLoggerMiddleware } = require('@chrimc62/botbuilder-core');
 const { TelemetryInitializerMiddleware } = require('../');
 
 class TestInitializerMiddleware extends TelemetryInitializerMiddleware {

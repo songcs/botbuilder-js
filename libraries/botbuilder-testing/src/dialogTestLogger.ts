@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { Middleware, TurnContext, ResourceResponse, ActivityTypes } from 'botbuilder-core';
+import { Middleware, TurnContext, ResourceResponse, ActivityTypes } from '@chrimc62/botbuilder-core';
 import * as mlog from 'mocha-logger';
 
 /**

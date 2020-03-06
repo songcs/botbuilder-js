@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { CardAction } from 'botbuilder-core';
+import { CardAction } from '@chrimc62/botbuilder-core';
 import { findValues, FindValuesOptions, FoundValue, SortedValue } from './findValues';
 import { ModelResult } from './modelResult';
 

@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import * as Recognizers from '@microsoft/recognizers-text-number';
-import { Activity, InputHints, TurnContext } from 'botbuilder-core';
+import { Activity, InputHints, TurnContext } from '@chrimc62/botbuilder-core';
 import { Prompt, PromptOptions, PromptRecognizerResult, PromptValidator } from './prompt';
 
 import { Chinese, Dutch, English, French, German, Japanese, LikelySubtags, NumberingSystem, Portuguese, Spanish } from "../i18n";

@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { Activity } from 'botframework-schema';
+import { Activity } from '@chrimc62/botframework-schema';
 import { PagedResult, TranscriptInfo, TranscriptStore } from './transcriptLogger';
 
 /**

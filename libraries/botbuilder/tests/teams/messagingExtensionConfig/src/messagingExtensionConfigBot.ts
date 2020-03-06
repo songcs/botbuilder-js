@@ -12,7 +12,7 @@ import {
 
 import {
     ActionTypes,
-} from 'botframework-schema'
+} from '@chrimc62/botframework-schema'
 
 export class MessagingExtensionConfigBot  extends TeamsActivityHandler {
     constructor() {

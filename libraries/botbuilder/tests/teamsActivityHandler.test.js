@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { TeamsActivityHandler } = require('../');
-const { ActivityTypes, TestAdapter } = require('botbuilder-core');
+const { ActivityTypes, TestAdapter } = require('@chrimc62/botbuilder-core');
 
 function createInvokeActivity(name, value = {}, channelData = {}) {
     const activity = {

@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import * as Recognizers from '@microsoft/recognizers-text-date-time';
-import { Activity, InputHints, TurnContext } from 'botbuilder-core';
+import { Activity, InputHints, TurnContext } from '@chrimc62/botbuilder-core';
 import { Prompt, PromptOptions, PromptRecognizerResult, PromptValidator } from './prompt';
 
 /**

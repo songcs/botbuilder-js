@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { ChoiceFactory } = require('../');
-const { ActionTypes, CardAction } = require('botbuilder-core');
+const { ActionTypes, CardAction } = require('@chrimc62/botbuilder-core');
 
 function assertActivity(received, expected) {
     assert(received, `Activity not returned.`);

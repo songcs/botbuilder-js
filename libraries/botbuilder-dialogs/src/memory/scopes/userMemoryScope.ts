@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import { BotStateMemoryScope } from './botStateMemoryScope';
-import { UserState } from 'botbuilder-core';
+import { UserState } from '@chrimc62/botbuilder-core';
 import { ScopePath } from './scopePath';
 
 /**

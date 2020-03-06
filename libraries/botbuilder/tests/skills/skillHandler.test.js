@@ -1,5 +1,5 @@
 const { ok: assert, strictEqual } = require('assert');
-const { ActivityHandler, ActivityTypes } = require('botbuilder-core');
+const { ActivityHandler, ActivityTypes } = require('@chrimc62/botbuilder-core');
 const { AppCredentials, AuthenticationConfiguration, ClaimsIdentity, SimpleCredentialProvider } = require('botframework-connector');
 const { BotFrameworkAdapter, SkillConversationIdFactoryBase, SkillHandler } = require('../../');
 const { ConversationIdFactory } = require('./conversationIdFactory');

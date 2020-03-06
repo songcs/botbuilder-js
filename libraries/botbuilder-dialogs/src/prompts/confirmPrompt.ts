@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 import * as Recognizers from '@microsoft/recognizers-text-choice';
-import { Activity, TurnContext } from 'botbuilder-core';
+import { Activity, TurnContext } from '@chrimc62/botbuilder-core';
 import { Choice, ChoiceFactoryOptions, recognizeChoices } from '../choices';
 import { ListStyle, Prompt, PromptOptions, PromptRecognizerResult, PromptValidator } from './prompt';
 import { PromptCultureModels } from './promptCultureModels';

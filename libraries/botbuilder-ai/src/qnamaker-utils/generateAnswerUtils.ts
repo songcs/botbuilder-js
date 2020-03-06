@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 
-import { TurnContext } from 'botbuilder-core';
+import { TurnContext } from '@chrimc62/botbuilder-core';
 
 import { QnAMakerResult } from '../qnamaker-interfaces/qnamakerResult';
 import { QnAMakerResults } from '../qnamaker-interfaces/qnamakerResults';

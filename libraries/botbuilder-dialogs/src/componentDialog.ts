@@ -5,7 +5,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { TurnContext, BotTelemetryClient, NullTelemetryClient } from 'botbuilder-core';
+import { TurnContext, BotTelemetryClient, NullTelemetryClient } from '@chrimc62/botbuilder-core';
 import { Dialog, DialogInstance, DialogReason, DialogTurnResult, DialogTurnStatus } from './dialog';
 import { DialogContext } from './dialogContext';
 import { DialogContainer } from './dialogContainer';

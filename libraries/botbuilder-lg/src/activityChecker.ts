@@ -6,8 +6,8 @@
  * Licensed under the MIT License.
  */
 
-import { ActivityTypes, ActionTypes } from 'botbuilder-core';
-import { CardFactory } from 'botbuilder-core';
+import { ActivityTypes, ActionTypes } from '@chrimc62/botbuilder-core';
+import { CardFactory } from '@chrimc62/botbuilder-core';
 import { Diagnostic, DiagnosticSeverity } from './diagnostic';
 import { Range } from './range';
 import { Position } from './position';

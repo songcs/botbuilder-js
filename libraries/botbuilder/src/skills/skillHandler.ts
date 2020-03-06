@@ -15,7 +15,7 @@ import {
     SkillConversationIdFactoryBase,
     TurnContext,
     SkillConversationReference
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import { AuthenticationConfiguration, AppCredentials, ICredentialProvider, ClaimsIdentity, JwtTokenValidation, GovernmentConstants, AuthenticationConstants } from 'botframework-connector';
 
 import { ChannelServiceHandler } from '../channelServiceHandler';

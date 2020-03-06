@@ -2,7 +2,7 @@
   "name": "@chrimc62/botbuilder-lg",
   "author": "Microsoft Corp.",
   "description": "Bot Builder Language Generation is a library to help build sophisticated bot responses with multiple phrases and context-based expressions.",
-  "version": "4.1.10",
+  "version": "4.1.6",
   "license": "MIT",
   "keywords": [
     "botbuilder",

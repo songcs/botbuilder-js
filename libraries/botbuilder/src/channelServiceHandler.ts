@@ -18,7 +18,7 @@ import {
     PagedMembersResult,
     ResourceResponse,
     Transcript,
-} from 'botbuilder-core';
+} from '@chrimc62/botbuilder-core';
 import {
     AuthenticationConfiguration,
     AuthenticationConstants,

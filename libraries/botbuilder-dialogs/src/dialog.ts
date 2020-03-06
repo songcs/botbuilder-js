@@ -2,7 +2,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
-import { BotTelemetryClient, NullTelemetryClient, TurnContext } from 'botbuilder-core';
+import { BotTelemetryClient, NullTelemetryClient, TurnContext } from '@chrimc62/botbuilder-core';
 import { DialogContext } from './dialogContext';
 import { Configurable } from './configurable';
 

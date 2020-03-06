@@ -9,7 +9,7 @@
 import { LGTemplate } from './lgTemplate';
 import { LGImport } from './lgImport';
 import { Diagnostic, DiagnosticSeverity } from './diagnostic';
-import { ExpressionEngine } from 'adaptive-expressions';
+import { ExpressionEngine } from '@chrimc62/adaptive-expressions';
 import { ImportResolverDelegate } from './lgParser';
 import { Evaluator } from './evaluator';
 import { Expander } from './expander';
