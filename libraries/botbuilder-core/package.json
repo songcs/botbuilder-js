@@ -2,7 +2,7 @@
   "name": "@chrimc62/botbuilder-core",
   "author": "Microsoft Corp.",
   "description": "Core components for Microsoft Bot Builder. Components in this library can run either in a browser or on the server.",
-  "version": "4.1.6",
+  "version": "4.1.20",
   "license": "MIT",
   "keywords": [
     "botbuilder",
