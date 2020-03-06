@@ -41,7 +41,7 @@
     "build": "tsc",
     "build-docs": "typedoc --theme markdown --entryPoint botbuilder-applicationinsights --excludePrivate --includeDeclarations --ignoreCompilerErrors --module amd --out ..\\..\\doc\\botbuilder-applicationinsights .\\lib\\index.d.ts --hideGenerator --name \"Bot Builder SDK - Application Insights\" --readme none",
     "clean": "erase /q /s .\\lib",
-    "set-version": "npm version --allow-same-version ${Version}"
+    "set-version": "npm version --allow-same-version %Version%"
   },
   "files": [
     "/lib",

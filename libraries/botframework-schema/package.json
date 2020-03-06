@@ -25,7 +25,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "erase /q /s .\\lib",
-    "set-version": "npm version --allow-same-version ${Version}"
+    "set-version": "npm version --allow-same-version %Version%"
   },
   "files": [
     "/lib",

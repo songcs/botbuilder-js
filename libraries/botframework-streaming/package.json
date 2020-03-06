@@ -46,7 +46,7 @@
     "clean": "erase /q /s .\\lib .\\browser",
     "eslint": "eslint  ./src/*.ts ./src/**/*.ts",
     "eslint-fix": "eslint  ./src/*.ts ./src/**/*.ts --fix",
-    "set-version": "npm version --allow-same-version ${Version}",
+    "set-version": "npm version --allow-same-version %Version%",
     "test": "npm run build && nyc mocha tests/"
   },
   "files": [

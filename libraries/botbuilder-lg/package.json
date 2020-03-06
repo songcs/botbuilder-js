@@ -40,7 +40,7 @@
     "build": "tsc",
     "build-docs": "typedoc --theme markdown --entryPoint botbuilder-lg --excludePrivate --includeDeclarations --ignoreCompilerErrors --module amd --out ..\\..\\doc\\botbuilder-lg .\\lib\\index.d.ts --hideGenerator --name \"Bot Builder SDK - LG\" --readme none",
     "clean": "erase /q /s .\\lib",
-    "set-version": "npm version --allow-same-version ${Version}"
+    "set-version": "npm version --allow-same-version %Version%"
   },
   "files": [
     "/lib",
