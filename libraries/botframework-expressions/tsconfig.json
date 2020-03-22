@@ -13,6 +13,6 @@
       "types" : ["node"]
     },
     "include": [
-      "src/**/*"
+      "src/**/*", "tests/TriggerTrees/Generator.ts", "tests/TriggerTrees/SimpleValues.ts", "tests/TriggerTrees/Tests.ts", "tests/TriggerTrees/ExpressionInfo.ts", "tests/TriggerTrees/WeightedChoice.ts", "tests/TriggerTrees/TriggerInfo.ts", "tests/TriggerTrees/Comparison.ts"
     ]
   }
