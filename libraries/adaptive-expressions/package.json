@@ -18,6 +18,7 @@
   },
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
+  "browser": "./lib/index_browser.js",
   "dependencies": {
     "@microsoft/recognizers-text-data-types-timex-expression": "1.1.4",
     "@types/atob-lite": "^2.0.0",

@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
 /* eslint-disable @typescript-eslint/no-var-requires */
-const {Expression, SimpleObjectMemory, ExpressionFunctions, Options} = require('../lib');
+const {Expression, SimpleObjectMemory, ExpressionFunctions, Options} = require('../lib/index');
 var {TimexProperty} = require('@microsoft/recognizers-text-data-types-timex-expression');
 const assert = require('assert');
 const moment = require('moment');
-const bigInt = require('big-integer')
+const bigInt = require('big-integer');
+const os = require('os');
 
 const one = ['one'];
 const oneTwo = ['one', 'two'];
@@ -222,6 +223,7 @@ const dataSource = [
     ['count(newGuid())', 36],
     ['indexOf(newGuid(), \'-\')', 8],
     ['indexOf(newGuid(), \'-\')', 8],
+    ['EOL()', os.EOL],
     ['indexOf(hello, \'-\')', -1],
     ['indexOf(nullObj, \'-\')', -1],
     ['indexOf(hello, nullObj)', 0],

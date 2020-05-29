@@ -6,7 +6,7 @@
  * Licensed under the MIT License.
  */
 export * from './expressionFunctions';
-export * from './expressionFunctionsForNode';
+export * from './expressionFunctionsForBrowser';
 export * from './constant';
 export * from './expression';
 export * from './expressionEvaluator';
