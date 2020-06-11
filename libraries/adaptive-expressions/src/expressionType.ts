@@ -59,6 +59,8 @@ export class ExpressionType {
     public static readonly IndexOf: string = 'indexOf';
     public static readonly LastIndexOf: string = 'lastIndexOf';
     public static readonly EOL: string = 'EOL';
+    public static readonly SentenceCase: string = 'sentenceCase';
+    public static readonly TitleCase: string = 'titleCase';
 
     // DateTime
     public static readonly AddDays: string = 'addDays';
