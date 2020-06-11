@@ -14,7 +14,7 @@ import { ReturnType, Expression } from './expression';
 /**
  * Inject Browser-specific functions into the common builtin-function list.
  */
-export class ExpressionFunctionsForNode {
+export class ExpressionFunctionsForBrowser {
     public static _initialize(): void {
         this.injectedFunctions();
     }
@@ -41,4 +41,4 @@ export class ExpressionFunctionsForNode {
     }
 }
 
-ExpressionFunctionsForNode._initialize();
+ExpressionFunctionsForBrowser._initialize();
