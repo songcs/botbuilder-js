@@ -8,7 +8,7 @@ const { RegexRecognizer, IntentPattern, EntityRecognizerSet, RegexEntityRecogniz
     GuidEntityRecognizer, HashtagEntityRecognizer, IpEntityRecognizer,
     MentionEntityRecognizer, NumberEntityRecognizer, OrdinalEntityRecognizer,
     PercentageEntityRecognizer, PhoneNumberEntityRecognizer, TemperatureEntityRecognizer,
-    UrlEntityRecognizer, Recognizer
+    UrlEntityRecognizer, Recognizer, createRecognizerResult
 } = require('../');
 
 const user = {
@@ -396,6 +396,18 @@ describe('recognizer tests', function() {
         assert.equal(properties['TelemetryPropertiesKey1'], telemetryProperties['TelemetryPropertiesKey1']);
         assert('TelemetryPropertiesKey2' in properties);
         assert.equal(properties['TelemetryPropertiesKey2'], telemetryProperties['TelemetryPropertiesKey2']);
+    });
+
+    it('check createRecognizerResult', () =>{
+        const result = createRecognizerResult('test');
+        assert.equal(result['text'], 'test');
+        assert('None' in result['intents']);
+        assert.equal(result.intents['None'].score, 0.0);
+
+        const result2 = createRecognizerResult('test', recognizerResultSample['intents'], recognizerResultSample['entities']);
+        assert.equal(result2['text'], 'test');
+        assert.equal(result2['intents'], recognizerResultSample['intents']);
+        assert.equal(result2['entities'], recognizerResultSample['entities']);
     });
 
 });
